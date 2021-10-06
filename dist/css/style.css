@@ -1,0 +1,286 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  font-family: sans-serif;
+}
+
+.container {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+}
+
+.row {
+  position: fixed;
+  width: 100%;
+  height: 10vh;
+}
+
+.row .logo {
+  position: absolute;
+  left: 15%;
+  bottom: -45%;
+}
+
+.row .logo img {
+  width: 120px;
+  height: 120px;
+}
+
+.fas, .far {
+  font-size: 25px;
+}
+
+.search input {
+  padding: 10px 5px;
+  position: absolute;
+  width: 300px;
+  left: 45%;
+  border: none;
+  outline: none;
+  border: 1px solid #eee;
+  border-radius: 10px;
+  top: 20%;
+}
+
+.search-icon {
+  position: absolute;
+  left: 68%;
+  text-align: center;
+  padding-top: 20px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 10px;
+  font-size: 30px;
+}
+
+.microphone {
+  position: absolute;
+  left: 72%;
+  top: 30%;
+  font-size: 25px;
+}
+
+.record {
+  position: absolute;
+  left: 87%;
+  top: 30%;
+}
+
+.notification {
+  position: absolute;
+  left: 91%;
+  top: 28%;
+}
+
+.profile img {
+  position: absolute;
+  left: 95%;
+  top: 20%;
+  width: 40px;
+  height: 40px;
+  background: red;
+  border-radius: 50%;
+}
+
+.column {
+  position: fixed;
+  width: 15%;
+  height: 100vh;
+  overflow-y: scroll;
+}
+
+.icon .bar1, .icon .bar2, .icon .bar3 {
+  width: 30px;
+  height: 4px;
+  background: black;
+  margin: 5px;
+}
+
+img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+
+.home, .explore, .subscriptions, .library, .history, .videos, .liked, .show, .subs, .pink, .simple, .smithsonian, .Criminals, .kibe, .FreeCodeCamp, .florin, .alot, .youtube, .game, .live, .champ, .setting, .flag, .question, .feedback {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 10%;
+  margin-left: 5%;
+  padding: 5px;
+  cursor: pointer;
+}
+
+.home:hover, .explore:hover, .subscriptions:hover, .library:hover, .history:hover, .videos:hover, .liked:hover, .show:hover, .subs:hover, .pink:hover, .simple:hover, .smithsonian:hover, .Criminals:hover, .kibe:hover, .FreeCodeCamp:hover, .florin:hover, .alot:hover, .youtube:hover, .game:hover, .live:hover, .champ:hover, .setting:hover, .flag:hover, .question:hover, .feedback:hover {
+  background: #eee;
+}
+
+span {
+  margin-left: 5%;
+  font-size: 15px;
+  width: 100%;
+  padding: 5px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  cursor: pointer;
+}
+
+span:hover {
+  background: #eee;
+}
+
+.subscriptions {
+  border-bottom: 1px solid #000;
+}
+
+.s, .subscribe {
+  margin-bottom: 10%;
+}
+
+.subs {
+  border-top: 1px solid black;
+}
+
+.sub {
+  margin-top: 5%;
+}
+
+.youtube, .setting {
+  border-top: 1px solid #000;
+  width: 100%;
+}
+
+.from {
+  font-size: 15px;
+  margin-top: 5%;
+}
+
+.set, .settings {
+  font-size: 15px;
+  margin-top: 5%;
+}
+
+.buttons {
+  position: fixed;
+  width: 100%;
+  height: 10vh;
+  background: #fff;
+  text-align: center;
+}
+
+.buttons .btns {
+  position: fixed;
+  margin-top: 1%;
+}
+
+.buttons .btns button {
+  padding: 10px 20px;
+  font-size: 15px;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  margin-left: 25px;
+}
+
+.active, button:hover {
+  background: #000;
+  color: #ffff;
+}
+
+.content {
+  width: 85%;
+  height: 100vh;
+  top: 10%;
+  left: 15%;
+  position: fixed;
+  overflow: scroll;
+}
+
+.item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.box-1 {
+  width: 300px;
+  height: 300px;
+  margin-top: 6%;
+  margin-left: 3%;
+  margin-right: 3%;
+}
+
+.box-1 .image {
+  width: 100%;
+  height: 200px;
+}
+
+.box-1 .image img {
+  width: 100%;
+  border-radius: 1px;
+  height: 200px;
+}
+
+.box-1 .flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.box-1 .users {
+  width: 60px;
+  height: 55px;
+  text-align: center;
+}
+
+.box-1 .users .use img {
+  margin-top: 10%;
+  width: 50px;
+  height: 50px;
+}
+
+.box-1 .text {
+  width: 100%;
+  height: 35px;
+  padding: 10px;
+}
+
+.box-1 .try {
+  width: 109.3%;
+  height: 47px;
+  margin-top: 11%;
+  margin-left: -5%;
+}
+
+.box-1 .try .name {
+  margin: 10px;
+}
+
+.box-1 .try .views {
+  margin: 10px;
+}
+/*# sourceMappingURL=style.css.map */
